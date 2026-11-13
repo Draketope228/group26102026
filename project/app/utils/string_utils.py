@@ -1,2 +1,2 @@
-def concatenate_strings(string_1: str, string_2: str) -> str:
-   return string_1 + string_2
+def divide_numbers(a: float, b: float) ->float:
+   return a / b

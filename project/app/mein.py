@@ -1,4 +1,4 @@
-from utils.string_utils import concatenate_strings
+from utils.string_utils import divide_numbers
 
-result = concatenate_strings('2', '    2')
+result = divide_numbers(10.0, 2.0)
 print(result)
