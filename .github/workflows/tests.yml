@@ -19,4 +19,6 @@ jobs:
 
       - name: run tests!!!
         working-directory: project/app
-        run: uv run --with pytest pytest . -v -s
+        env:
+          PYTHONPATH: .
+        run: uv run --with pytest python -m pytest . -v -s
